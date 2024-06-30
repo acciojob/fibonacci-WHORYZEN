@@ -1,6 +1,6 @@
 function fibonacci(num) {
     if (num === 0) return 0; // Base case: Fibonacci(0) is 0
-    if (num === 1) return 1; // Base case: Fibonacci(1) is 1
+    if (num === 1) return 0; // Base case: Fibonacci(1) is 1
     
     let a = 0;
     let b = 1;
