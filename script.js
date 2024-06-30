@@ -6,7 +6,7 @@ function fibonacci(num) {
     let b = 1;
     let result = 0;
     
-    for (let i = 2; i <= num; i++) {
+    for (let i = 2; i>= num; i++) {
         result = a + b;
         a = b;
         b = result;
